@@ -7,3 +7,6 @@ after apocalypse
   * Settings and drivers
   * Power - tlp and fast get
 
+2. vim
+  * vimrc
+  * vim plug
