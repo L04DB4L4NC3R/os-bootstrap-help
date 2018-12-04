@@ -4,9 +4,9 @@
 after apocalypse
 
 1. Nvidia And Power
-  * Settings and drivers
-  * Power - tlp and fast get
+   * Settings and drivers
+   * Power - tlp and fast get
 
 2. vim
-  * vimrc
-  * vim plug
+   * vimrc
+   * vim plug
