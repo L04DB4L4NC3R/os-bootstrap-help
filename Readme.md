@@ -5,6 +5,7 @@ after apocalypse
 
 1. Nvidia And Power
    * Settings and drivers
+     * cuda and cudnn
    * Power - tlp and fast get
 
 2. vim
@@ -12,7 +13,7 @@ after apocalypse
    * vim plug
 
 3. audio
-   * pulseefects
+   * pulseeffects
 
 4. Misc
    * system
