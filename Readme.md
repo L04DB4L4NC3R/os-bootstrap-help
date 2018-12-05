@@ -10,3 +10,11 @@ after apocalypse
 2. vim
    * vimrc
    * vim plug
+
+3. audio
+   * pulseefects
+
+4. Misc
+   * system
+     * chrome
+     * unity tweak tool
