@@ -19,3 +19,12 @@ after apocalypse
    * system
      * chrome
      * unity tweak tool
+
+
+### Touchpad
+
+<br />
+
+```bash
+sudo apt-get install xserver-xorg-input-synaptics sudo reboot
+```
