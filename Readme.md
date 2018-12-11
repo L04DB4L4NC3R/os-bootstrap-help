@@ -34,8 +34,8 @@ sudo apt-get install xserver-xorg-input-synaptics sudo reboot
 ### nodejs download
 
 ```
-curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
-sudo apt install nodejs
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+$ sudo apt-get install -y nodejs`
 ```
 
 <br />
