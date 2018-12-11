@@ -84,6 +84,10 @@ sudo add-apt-repository \
 sudo apt-get update
 
 sudo apt-get install docker-ce
+
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
 ```
 
 <br />
