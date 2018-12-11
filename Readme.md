@@ -27,6 +27,7 @@ after apocalypse
 
 ```bash
 sudo apt-get install xserver-xorg-input-synaptics sudo reboot
+```
 
 <br />
 
