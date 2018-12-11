@@ -34,8 +34,8 @@ sudo apt-get install xserver-xorg-input-synaptics sudo reboot
 ### nodejs download
 
 ```
-$ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
-$ sudo apt-get install -y nodejs`
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+sudo apt-get install -y nodejs`
 ```
 
 <br />
@@ -46,8 +46,8 @@ $ sudo apt-get install -y nodejs`
 Paste the export line at the end of ~/.bashrc
 
 ```
-$ sudo tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
-$ export PATH=$PATH:/usr/local/go/bin
+sudo tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
 ```
 
 <br />
@@ -62,29 +62,36 @@ cat ~/.ssh/id_rsa.pub
 ### Docker download
 
 ```
-$ sudo apt-get update
+sudo apt-get update
 
-$ sudo apt-get install \
+sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     software-properties-common
 
 
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-$ sudo apt-key fingerprint 0EBFCD88
-
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
 
 
-$ sudo add-apt-repository \
+
+sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
 
-$ sudo apt-get update
+sudo apt-get update
 
-$ sudo apt-get install docker-ce
+sudo apt-get install docker-ce
 ```
 
+<br />
 
+### docker-compose
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+```
