@@ -46,8 +46,8 @@ $ sudo apt-get install -y nodejs`
 Paste the export line at the end of ~/.bashrc
 
 ```
-tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
-export PATH=$PATH:/usr/local/go/bin
+$ sudo tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
+$ export PATH=$PATH:/usr/local/go/bin
 ```
 
 <br />
