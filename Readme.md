@@ -43,7 +43,7 @@ sudo apt-get install -y nodejs`
 
 ### golang download
 
-Paste the export line at the end of ~/.bashrc
+Paste the export line at the end of ~/.profile
 
 ```
 sudo tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
