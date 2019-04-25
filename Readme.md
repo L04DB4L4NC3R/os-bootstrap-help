@@ -107,3 +107,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 sudo snap install --classic heroku
 ```
+
+<br />
+
+### Enable exFAT on ubuntu
+
+```
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install exfat-fuse exfat-utils
+```
