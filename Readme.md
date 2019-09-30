@@ -1,4 +1,21 @@
-# Linux 16.04
+## The ultimate startup config for debian based systems
+How Ḻ̷̃0̸͔̈́͠4̶̡̢̈́̚D̴̲̄͊B̸͕̺͆͗4̴͖̠͐L̶̲͑4̴̡͖͗N̶̦͒C̴̣̄3̸̥̒̆Ŕ̷̫͝ does his configs
+
+## Making a bootable USB drive
+* Figuring out which is the USB (will be in the /dev or /media)
+
+```bash
+lsblk | grep <usb name>
+```
+For this example lets assume /dev/sdc1
+
+* dd command for conversion
+
+```bash
+sudo dd bs=4M if=<path-to-iso> of=/dev/sd<letter><number> conv=fdatasync
+```
+
+* Voila
 
 3rd December 2018
 after apocalypse
