@@ -1,5 +1,5 @@
 ## The ultimate startup config for debian based systems
-How Ḻ̷̃0̸͔̈́͠4̶̡̢̈́̚D̴̲̄͊B̸͕̺͆͗4̴͖̠͐L̶̲͑4̴̡͖͗N̶̦͒C̴̣̄3̸̥̒̆Ŕ̷̫͝ does his configs
+How  Ḻ̷̃0̸͔̈́͠4̶̡̢̈́̚D̴̲̄͊B̸͕̺͆͗4̴͖̠͐L̶̲͑4̴̡͖͗N̶̦͒C̴̣̄3̸̥̒̆Ŕ̷̫͝   does his configs
 
 ## Making a bootable USB drive
 * Figuring out which is the USB (will be in the /dev or /media)
@@ -28,6 +28,10 @@ after apocalypse
 2. vim
    * vimrc
    * vim plug
+   * Building vim from source (for ycm)
+```bash
+https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source
+```
 
 3. audio
    * pulseeffects
