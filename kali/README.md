@@ -16,3 +16,18 @@
 ### Docker installation
 
 https://medium.com/@airman604/installing-docker-in-kali-linux-2017-1-fbaa4d1447fe
+
+### Installing graphic (nvidia) drivers
+
+* Official docs
+https://docs.kali.org/general-use/install-nvidia-drivers-on-kali-linux
+
+* Unofficial docs
+https://hackersterminal.com/how-to-install-nvidia-driver-on-kali-linux/
+
+### In case a black screen is encountered while nvidia driver installation
+
+
+![](../static/3.jpg)
+![](../static/4.jpg)
+
