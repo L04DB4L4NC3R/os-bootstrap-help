@@ -1,5 +1,12 @@
 ## Kali installation and setup
 
+## Booting directly from grub
+* Loads kernel
+* Then filesystem
+* Best way to bypass BIOS when trying to boot from a USB
+
+![](../static/5.jpg)
+
 ### Grey screen issue after login
 
 ![](../static/1.jpg)
