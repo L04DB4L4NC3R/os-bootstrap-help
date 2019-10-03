@@ -138,3 +138,10 @@ sudo add-apt-repository universe
 sudo apt update
 sudo apt install exfat-fuse exfat-utils
 ```
+
+
+### Additional tips
+* How to install from a list of .deb packages
+```bash
+sudo dpkg -i *.deb
+```
