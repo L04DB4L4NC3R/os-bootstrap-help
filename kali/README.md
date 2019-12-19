@@ -18,6 +18,7 @@
 * Problem with the DNS hence change /etc/resolv.conf
 * Add new nameservers
 * Refer [this](https://www.blackmoreops.com/2013/10/30/fix-kali-linux-apt-get-slow-update/)
+* Refer for `/etc/apt/sources.list` [this](https://www.metahackers.pro/speed-kali-linux-update/)
 
 
 ### Docker installation
