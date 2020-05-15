@@ -12,7 +12,8 @@ For this example lets assume /dev/sdc1
 * dd command for conversion
 
 ```bash
-sudo dd bs=4M if=<path-to-iso> of=/dev/sd<letter><number> conv=fdatasync
+# sudo dd bs=4M if=<path-to-iso> of=/dev/sd<letter> conv=fdatasync
+sudo dd if=<path-to-iso> of=<path-to-dev, eg: /dev/sdc> status="progress"
 ```
 
 * Voila
