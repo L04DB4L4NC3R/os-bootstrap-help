@@ -39,3 +39,6 @@ https://hackersterminal.com/how-to-install-nvidia-driver-on-kali-linux/
 ![](../static/3.jpg)
 ![](../static/4.jpg)
 
+### Synaptic drivers (for tap to click)
+
+[See this](https://unix.stackexchange.com/questions/337008/activate-tap-to-click-on-touchpad)
