@@ -1,9 +1,0 @@
-set number
-set laststatus=2
-call plug#begin()
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'itchyny/lightline.vim'
-Plug 'davidhalter/jedi-vim'
-Plug 'gabrielelana/vim-markdown'
-Plug 'iamcco/markdown-preview.vim'
-call plug#end()

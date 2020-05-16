@@ -53,27 +53,6 @@ DO NOT RUN THIS  sudo apt-get install xserver-xorg-input-synaptics sudo reboot
 
 <br />
 
-### nodejs download
-
-```
-curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
-sudo apt-get install -y nodejs`
-```
-
-<br />
-
-
-### golang download
-
-Paste the export line at the end of ~/.profile
-
-```
-sudo tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
-export PATH=$PATH:/usr/local/go/bin
-```
-
-<br />
-
 ### SSH keygen
 
 ``` 
@@ -120,14 +99,6 @@ sudo usermod -aG docker $USER
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
-```
-
-<br />
-
-### heroku cli
-
-```
-sudo snap install --classic heroku
 ```
 
 <br />

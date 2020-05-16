@@ -395,6 +395,18 @@ pacman -S virtualbox-guest-utils xf86-video-vmware
 
 ---
 
+## Synchronise clock
+
+We will activate the service, to activate synchronization between the computer and the servers on the internet:
+
+```sh
+systemctl enable systemd-timesyncd.service
+
+timedatectl set-ntp true
+```
+
+---
+
 ## Poweroff or reboot
 
 ```sh
