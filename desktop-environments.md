@@ -1,4 +1,8 @@
-## List of Desktop Environments I have tried
+## DEs and WMs
+
+List of Desktop Environments and Window Managers that I have tried
+
+---
 
 ### Window Managers
 
@@ -16,7 +20,6 @@
 ---
 
 ### Desktop Environment
-
 
 * GNOME
 * xfce
