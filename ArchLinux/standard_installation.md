@@ -441,6 +441,14 @@ Now `chmod 777 /sys/class/backlight/intel_backlight/brightness` so that users ca
 
 ---
 
+## Enable exfat
+
+```sh
+sudo pacman -S extfat-utils
+```
+
+---
+
 ## Poweroff or reboot
 
 ```sh
@@ -492,21 +500,4 @@ pacman -S cinnamon
 echo 'exec cinnamon-session' > ~/.xinitrc
 
 startx
-```
-
----
-
-## Some other useful tools
-
-```sh
-# feh image viewer
-# mpv video player
-# alacritty terminal emulator
-# qutebrowser browser
-# cava sound visual effects
-# transmisison torrent client
-# youtube-dl for opening videos in mpv
-# mpd music player
-# exfat utilities
-pacman -S feh mpv newsboat alacritty qutebrowser transmission-gtk youtube-dl mpd extfat-utils
 ```
