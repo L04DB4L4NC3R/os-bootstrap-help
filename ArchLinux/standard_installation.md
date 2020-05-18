@@ -505,5 +505,7 @@ startx
 # qutebrowser browser
 # cava sound visual effects
 # transmisison torrent client
-pacman -S feh mpv newsboat alacritty qutebrowser cava transmission 
+# youtube-dl for opening videos in mpv
+# mpd music player
+pacman -S feh mpv newsboat alacritty qutebrowser transmission-gtk youtube-dl mpd
 ```
