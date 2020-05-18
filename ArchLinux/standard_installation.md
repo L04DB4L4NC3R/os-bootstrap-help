@@ -24,7 +24,7 @@ Check if `ping 8.8.8.8` pings the server. You can also check `ip addr` to see if
 
 ```sh
 # to get wifi
-wifi_menu
+wifi-menu
 ```
 
 You may need to `systemctl restart dhcpd` the dhcp daemon for the internet to work (may not also)
@@ -292,7 +292,7 @@ visudo
 Install the required packages
 
 ```sh
-pacman -S grub efibootmgr dosfstoolsos-prober mtools
+pacman -S grub efibootmgr dosfstools os-prober mtools
 ```
 
 Create a dir for EFI and mount the EFI filesystem here in the chroot environment
@@ -379,7 +379,6 @@ pacman -S linux-firmware
 
 # for sound
 pacman -S alsa-utils
-alsamixer
 
 # for ifconfig
 pacman -S net-tools
