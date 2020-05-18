@@ -412,6 +412,35 @@ https://wiki.archlinux.org/index.php/Touchpad_Synaptics
 
 ---
 
+## Brightness and audio keybindings
+
+Create a script called `bright` and move it to `/usr/local/bin`:
+
+```sh
+#!/bin/bash
+current=`cat /sys/class/backlight/intel_backlight/brightness`
+if [[ $1 == "-d" ]]; then
+ let 'current-=10000'
+ if [[ $current -le 5000 ]]; then
+ current=5000
+ fi
+else 
+ let 'current+=10000'
+fi
+echo $current > /sys/class/backlight/intel_backlight/brightness
+```
+
+Now `chmod 777 /sys/class/backlight/intel_backlight/brightness` so that users can change brightness. You can now bind the keys:
+
+| Key | Command |
+|:---:|:-------:|
+| XF86MonBrightnessUp | bright |
+| XF86MonBrightnessDown | bright -d |
+| XF86AudioLowerVolume | amixer set Master 5%- unmute |
+| XF86AudioRaiseVolume | amixer set Master 5%+ unmute |
+
+---
+
 ## Poweroff or reboot
 
 ```sh
