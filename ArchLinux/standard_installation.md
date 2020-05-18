@@ -507,5 +507,6 @@ startx
 # transmisison torrent client
 # youtube-dl for opening videos in mpv
 # mpd music player
-pacman -S feh mpv newsboat alacritty qutebrowser transmission-gtk youtube-dl mpd
+# exfat utilities
+pacman -S feh mpv newsboat alacritty qutebrowser transmission-gtk youtube-dl mpd extfat-utils
 ```
