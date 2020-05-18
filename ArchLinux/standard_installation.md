@@ -407,6 +407,12 @@ timedatectl set-ntp true
 
 ---
 
+## Fix Touch Pad
+
+https://wiki.archlinux.org/index.php/Touchpad_Synaptics
+
+---
+
 ## Poweroff or reboot
 
 ```sh
