@@ -465,6 +465,20 @@ pactl load-module module-bluetooth-discover
 
 ---
 
+## Enable USB and USB input
+
+Edit the `/etc/mkinitcpio.conf` file and add `usb` and `usbinput` in the `HOOKS` array.
+
+---
+
+## If locale isn't set properly
+
+```sh
+sudo localectl set-locale LANG=en_US.UTF-8
+```
+
+---
+
 ## Poweroff or reboot
 
 ```sh

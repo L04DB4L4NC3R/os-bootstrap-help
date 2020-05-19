@@ -19,10 +19,12 @@
 # htop: Monitor usage
 # pandoc: Document converter
 # zathura: PDF viewer
+# network-manager-applet: nm-applet, NetworkManager applet
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
- zathura zathura-pdf-poppler pandoc texlive-core
+ zathura zathura-pdf-poppler pandoc texlive-core \
+ network-manager-applet
 ```
 
 ---
@@ -32,5 +34,6 @@ sudo pacman -S feh mpv newsboat alacritty \
 ```sh
 # subliminal: download subtitles
 # spotify: official spotify client
-yay -S subliminal spotify
+# nerd-fonts-complete: nerd fonts
+yay -S subliminal spotify nerd-fonts-complete
 ```
