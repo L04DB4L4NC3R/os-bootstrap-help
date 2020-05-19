@@ -447,6 +447,22 @@ Now `chmod 777 /sys/class/backlight/intel_backlight/brightness` so that users ca
 sudo pacman -S extfat-utils
 ```
 
+## Enable bluetooth
+
+```sh
+# gives you access to bluetoothctl and bluetooth services
+sudo pacman -S bluez bluez-utils 
+
+# Without these, device will pair but not connect
+sudo pacman -S bluez-hid2hci pulseaudio-bluetooth
+
+# Enable and start bluetooth.service
+sudo systemctl enable --now bluetooth
+
+# Load pulseaudio kernel module
+pactl load-module module-bluetooth-discover
+```
+
 ---
 
 ## Poweroff or reboot
