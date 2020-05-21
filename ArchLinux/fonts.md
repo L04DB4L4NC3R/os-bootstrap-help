@@ -18,3 +18,9 @@ fc-cache -f -v
 # list fonts
 fc-list
 ```
+
+## List of fonts used
+
+* Mononoki Nerd Font
+* SauceCodePro Nerd Font
+* monospace
