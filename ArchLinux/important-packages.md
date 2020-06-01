@@ -20,11 +20,12 @@
 # pandoc: Document converter
 # zathura: PDF viewer
 # network-manager-applet: nm-applet, NetworkManager applet
+# lsd: ls command with icons and colors
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
- network-manager-applet
+ network-manager-applet lsd
 ```
 
 ---
