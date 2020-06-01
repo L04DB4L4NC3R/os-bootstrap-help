@@ -24,3 +24,4 @@ fc-list
 * Mononoki Nerd Font
 * SauceCodePro Nerd Font
 * monospace
+* JetBrainsMono Nerd Font
