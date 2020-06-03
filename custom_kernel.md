@@ -20,4 +20,31 @@ sudo pacman -S linux-lts linux-lts-headers linux-lts-firmware
 yay -S linux-xanmod linux-xanmod-headers
 ```
 
-Now run mkinitcpio and remake grub config to see the new kernel option in the grub menu. Or you can remove the old kernel
+Now re-initialize ramdisk and make grub config again
+
+Edit the /etc/mkinitcpio.conf and add this before running mkinitcpio
+
+```sh
+MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+```
+
+```sh
+# re-initialize ramdisk
+sudo mkinitcpio -p <kernel name>
+
+# update grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# OR
+sudo pacman -S update-grub
+sudo update-grub
+
+# Now reboot
+reboot
+```
+
+Now we need nvidia drivers for the custom kernel. Luckily we can do this: which will attach itself to a pacman hook to build the driver for the custom kernel
+
+```sh
+sudo pacman -S nvidia-dkms
+```
