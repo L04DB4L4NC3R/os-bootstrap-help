@@ -441,10 +441,12 @@ Now `chmod 777 /sys/class/backlight/intel_backlight/brightness` so that users ca
 
 ---
 
-## Enable exfat
+## Enable exfat and NTFS
 
 ```sh
 sudo pacman -S extfat-utils
+
+sudo pacman -S ntfs-3g
 ```
 
 ## Enable bluetooth

@@ -11,6 +11,10 @@ sudo pacman -S nvidia
 # nvidia utilities
 sudo pacman -S nvidia-utils
 
+# 32 bit nvidia utils
+# might be required for steam
+sudo pacman -S lib32-nvidia-utils
+
 # monitoring tool
 sudo pacman -S nvtop
 ```
@@ -54,3 +58,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # or 
 sudo update-grub
 ```
+
+* Install [steam](https://wiki.archlinux.org/index.php/Steam)
