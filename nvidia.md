@@ -60,3 +60,9 @@ sudo update-grub
 ```
 
 * Install [steam](https://wiki.archlinux.org/index.php/Steam)
+
+* Install vulkan drivers for games which give an additonal option of using vulkan engine instead of openGL
+
+```sh
+sudo pacman -S vulkan-icd-loader  lib32-vulkan-icd-loader vulkan-intel lib32-vulkan-intel
+```
