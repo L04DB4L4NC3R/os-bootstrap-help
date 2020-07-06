@@ -7,3 +7,5 @@
 * Network Wide Adblocker using Pi-Hole.
 
 * VPN (Virtual Private Network) server using `openvpn`.
+
+* Tor Relay

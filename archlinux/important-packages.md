@@ -37,5 +37,7 @@ sudo pacman -S feh mpv newsboat alacritty \
 # subliminal: download subtitles
 # spotify: official spotify client
 # nerd-fonts-complete: nerd fonts
-yay -S subliminal spotify nerd-fonts-complete
+# chromium-widevine: for decrypting DRM content for qutebrowser so netflix and all play
+yay -S subliminal spotify nerd-fonts-complete \
+chromium-widevine
 ```
