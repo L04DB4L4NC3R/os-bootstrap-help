@@ -22,11 +22,15 @@
 # network-manager-applet: nm-applet, NetworkManager applet
 # lsd: ls command with icons and colors
 # redshift: night mode
+# picom: Compositor
+# neofetch: Fetch details about the system
+# xclip: X11 clipboard manager
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
- network-manager-applet lsd redshift
+ network-manager-applet lsd redshift picom neofetch \
+ xclip
 ```
 
 ---
@@ -38,6 +42,7 @@ sudo pacman -S feh mpv newsboat alacritty \
 # spotify: official spotify client
 # nerd-fonts-complete: nerd fonts
 # chromium-widevine: for decrypting DRM content for qutebrowser so netflix and all play
+# deadbeef: music player
 yay -S subliminal spotify nerd-fonts-complete \
-chromium-widevine
+chromium-widevine deadbeef
 ```
