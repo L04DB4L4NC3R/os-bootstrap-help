@@ -1,24 +1,20 @@
 ## To setup VNC server for the rpi
 
-* Allow VNC:
+VNC over SSH tunnel. On the client machine run:
 
 ```sh
-sudo raspi-config
+ssh -L 5901:localhost:5901 -N -f <distant_user>@<server_ip>
 ```
 
-* Install X remote desktop protocol
+Make sure the pi is running a vncserver on localhost only:
 
 ```sh
-sudo apt install xrdp
+# run this first
+vncserver :1 -geometry 1280x800 -depth 16 -localhost -nolisten tcp
 ```
 
-* Get the IP address
+Connect to the vnc using client machine
 
 ```sh
-hostname -i
-
-# or
-ip addr | grep 192.168
+xtightvncviewer localhost:1 -compresslevel 9 -quality 4 -depth 8
 ```
-
-* Connect using VNC software on any system by just adding the IP address

@@ -25,12 +25,14 @@
 # picom: Compositor
 # neofetch: Fetch details about the system
 # xclip: X11 clipboard manager
+# obs-studio: video record and stream
+# blueberry: GUI for Bluetooth Configuration
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
  network-manager-applet lsd redshift picom neofetch \
- xclip
+ xclip blueberry
 ```
 
 ---
