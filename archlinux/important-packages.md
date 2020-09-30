@@ -27,12 +27,14 @@
 # xclip: X11 clipboard manager
 # obs-studio: video record and stream
 # blueberry: GUI for Bluetooth Configuration
+# arandr: GUI for multiple monitors
+# pavucontrol: pulseaudio volume control
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
  network-manager-applet lsd redshift picom neofetch \
- xclip blueberry
+ xclip blueberry arandr pavucontrol
 ```
 
 ---
