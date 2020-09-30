@@ -29,12 +29,13 @@
 # blueberry: GUI for Bluetooth Configuration
 # arandr: GUI for multiple monitors
 # pavucontrol: pulseaudio volume control
+# dunst: notification system that uses libnotify
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
  network-manager-applet lsd redshift picom neofetch \
- xclip blueberry arandr pavucontrol
+ xclip blueberry arandr pavucontrol dunst
 ```
 
 ---
