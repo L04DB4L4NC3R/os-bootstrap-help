@@ -48,6 +48,7 @@ sudo pacman -S feh mpv newsboat alacritty \
 # nerd-fonts-complete: nerd fonts
 # chromium-widevine: for decrypting DRM content for qutebrowser so netflix and all play
 # deadbeef: music player
+# gst-plugins-good: for music players that need gstreamer plugins (eg: deepin-music)
 yay -S subliminal spotify nerd-fonts-complete \
-chromium-widevine deadbeef
+chromium-widevine deadbeef gst-plugins-good
 ```
