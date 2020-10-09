@@ -30,12 +30,13 @@
 # arandr: GUI for multiple monitors
 # pavucontrol: pulseaudio volume control
 # dunst: notification system that uses libnotify
+# playerctl: media player controls API
 sudo pacman -S feh mpv newsboat alacritty \
  qutebrowser transmission-gtk youtube-dl mpd \
  newsboat fzf nemo nitrogen picom dmenu htop \
  zathura zathura-pdf-poppler pandoc texlive-core \
  network-manager-applet lsd redshift picom neofetch \
- xclip blueberry arandr pavucontrol dunst
+ xclip blueberry arandr pavucontrol dunst playerctl
 ```
 
 ---
