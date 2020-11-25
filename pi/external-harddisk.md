@@ -21,5 +21,6 @@ blkid
 # Open /etc/fstab and add these lines, where UUID is the blkid of the drive
 # Note that in fstype, enter the formatting of the drive, eg: ntfs or ext4
 # If it is ntfs then sudo apt install ntfs-3g
+# If it is exfat then sudo apt install exfat-fuse
 UUID=5C24-1453xxxxxxxxxxxx	/mnt/mydisk	fstype defaults,auto,users,rw,nofail 0 0
 ```
