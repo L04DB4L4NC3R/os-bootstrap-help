@@ -30,3 +30,35 @@ openvpn /etc/openvpn/client/client.conf
 ```sh
 sudo pacman -S networkmanager-openvpn
 ```
+
+
+
+## Connecting to wireguard
+
+* Generate a wireguard client configuration from the VPN server that uses wireguard. Lets call it `angad.conf`
+
+* Install wireguard on the client
+
+```sh
+sudo apt install wireguard
+```
+
+* Copy the `angad.conf` to `/etc/wireguard`
+
+* Bring up the interface:
+
+```
+sudo wg-quick up angad
+```
+
+* Check status
+
+```
+sudo wg
+```
+
+* Bring it down
+
+```
+sudo wg-quick down angad
+```
