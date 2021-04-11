@@ -50,3 +50,9 @@ static domain_name_servers=202.62.64.3 8.8.8.8 # space separated list of DNS ser
 ```
 
 * Save and reboot!
+
+* NOTE: In some cases your dhcpcd conf file will automatically reset at boot. This might be because of the `systemd-resolved` daemon running in the background. Disable it if that's the case
+
+```sh
+sudo systemctl disable --now systemd-resolved
+```
