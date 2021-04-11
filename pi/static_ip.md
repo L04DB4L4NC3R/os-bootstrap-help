@@ -2,7 +2,7 @@
 
 Note that this requires you to configure your DHCP daemon. For the pre-requisites:
 
-* Your network interfacex:
+* Your network interface:
 
 ```sh
 # select the network interface to configure static IP for
@@ -23,6 +23,14 @@ To check which one you have at the moment, you can check your DNS resolution fil
 ```sh
 cat /etc/resolv.conf
 ```
+
+* To find your raspberry pi in the local network:
+
+```
+# scan local IP range and subnet to find potential IP of raspberry pi
+# once you find it, ssh into it
+ nmap -sP 192.168.0.0/24
+ ```
 
 * Now Comes to the editing part:
 
