@@ -1,5 +1,12 @@
 ## Network debugging
 
+* Check if any hardware switch is blocking wifi
+
+```sh
+rfkill list
+rfkill unblock all
+```
+
 * Make sure NetworkManager is running
 
 ```sh
