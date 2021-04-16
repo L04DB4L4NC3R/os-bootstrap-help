@@ -19,6 +19,13 @@
 * Add new nameservers
 * Refer [this](https://www.blackmoreops.com/2013/10/30/fix-kali-linux-apt-get-slow-update/)
 * Refer for `/etc/apt/sources.list` [this](https://www.metahackers.pro/speed-kali-linux-update/)
+* Update `/etc/sysctl.conf` to disable ipv6
+
+```
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+```
 
 
 ### Docker installation
